@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sbom-change-review"
+version = "0.1.0"
+description = "Review CycloneDX and SPDX release changes with explicit component and license policies."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "mysteryljn"}]
+dependencies = []
+
+[project.scripts]
+sbom-change-review = "sbom_change_review.cli:main"
+
+[project.urls]
+Repository = "https://github.com/mysteryljn/sbom-change-review"
+Issues = "https://github.com/mysteryljn/sbom-change-review/issues"
+
+[tool.setuptools.packages.find]
+include = ["sbom_change_review*"]
+
+[tool.setuptools.package-data]
+sbom_change_review = ["fixtures/*"]

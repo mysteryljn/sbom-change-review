@@ -1,0 +1,9 @@
+{
+  "bomFormat": "CycloneDX", "specVersion": "1.5", "version": 1,
+  "components": [
+    {"type": "library", "bom-ref": "old-1", "name": "gateway-core", "version": "1.2.0", "purl": "pkg:pypi/gateway-core@1.2.0", "licenses": [{"license": {"id": "MIT"}}]},
+    {"type": "library", "bom-ref": "old-2", "name": "legacy-logger", "version": "2.0", "purl": "pkg:generic/legacy-logger@2.0", "licenses": [{"license": {"id": "BSD-3-Clause"}}]},
+    {"type": "library", "name": "transport", "version": "1.0", "purl": "pkg:generic/transport@1.0", "licenses": [{"license": {"id": "MIT"}}]},
+    {"type": "library", "name": "transport", "version": "2.0", "purl": "pkg:generic/transport@2.0", "licenses": [{"license": {"id": "MIT"}}]}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "spdxVersion": "SPDX-2.3", "dataLicense": "CC0-1.0", "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Synthetic gateway release", "documentNamespace": "https://example.invalid/sbom/synthetic-gateway-1",
+  "creationInfo": {"creators": ["Tool: synthetic-fixture"], "created": "2026-11-10T00:00:00Z"},
+  "packages": [
+    {"SPDXID": "SPDXRef-gateway", "name": "gateway-core", "versionInfo": "1.3.0", "downloadLocation": "NOASSERTION", "filesAnalyzed": false,
+     "licenseConcluded": "NOASSERTION", "licenseDeclared": "MIT OR GPL-3.0-only", "copyrightText": "NOASSERTION",
+     "externalRefs": [{"referenceCategory": "PACKAGE-MANAGER", "referenceType": "purl", "referenceLocator": "pkg:pypi/gateway-core@1.3.0"}]}
+  ]
+}
